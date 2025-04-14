@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Start & Stop Interval</title>
+</head>
+<body>
+  <button id="startBtn">Start</button>
+  <button id="stopBtn">Stop</button>
+
+  <script>
+    let intervalId; // To store the interval reference
+
+    // Start Button Event Listener
+    document.getElementById("startBtn").addEventListener("click", function() {
+      // Prevent multiple intervals
+      if (!intervalId) {
+        intervalId = setInterval(() => {
+          console.log("Console is printing every second...",Date.now);
+        }, 1000);
+      }
+    });
+
+    // Stop Button Event Listener
+    document.getElementById("stopBtn").addEventListener("click", function() {
+      clearInterval(intervalId);  // Stops the interval
+      intervalId = null;          // Reset the interval ID
+      console.log("Interval stopped!");
+    });
+  </script>
+</body>
+</html>

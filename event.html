@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>fucking bitch</h3>
+  <button id="stop">stop</button>
+  <script>
+//will print after 2 sec
+ // setTimeout(function(){
+//     console.log("HANISH");
+//      },2000)
+
+
+    const sayhanish =function(){
+        console.log("HANISH");
+         }
+
+ //to change text after 2 sec by settimeout
+ const changeText =function(){
+    document.querySelector('h3').
+    innerHTML ="Best bitch"
+ }        
+   const changeMe = setTimeout(changeText,2000)
+//clear time out example by declearing previous settimeout as const (stop has # important)
+   document.querySelector('#stop').
+   addEventListener('click',function(){
+    clearTimeout(changeMe)
+    console.log("stopped");
+   })
+  </script>
+</body>
+</html>

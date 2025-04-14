@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>
+        SABKI MA CHODUNGA
+    </h1>
+    <button id="start">START</button>
+    <button id="stop">STOP</button>
+
+    <script>
+//2nd method to implement setinterval 
+    const saydate =function(str){
+            console.log(str,Date.now()); 
+        }
+         const intervalId =(saydate,1000,"hi")
+
+//now tpo stop the interval which is running 
+clearInterval(intervalId)
+
+
+// //1st method to implement setinterval 
+//         setInterval(function(){
+//             console.log("hanish",Date.now);
+//         })
+    </script>
+</body>
+</html>
