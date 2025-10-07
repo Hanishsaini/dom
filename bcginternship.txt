@@ -1,0 +1,44 @@
+Items in the Annual Report on Form 10-K-:
+1 Risk Factors
+2 Unresolved Staff Comments
+3  Properties
+4 Legal Proceedings
+5 Mine Safety Disclosures
+6 Market for Registrant’s Common Equity, Related Stockholder Matters and Issuer Purchases of Equity Securities
+7 “Management’s Discussion and Analysis of Financial Condition and Results of Operations
+8 Item 9A “Controls and Procedures” includes information about the company’s disclosure controls and procedures and its internal control over financial reporting.
+9 Changes in and Disagreements with Accountants on Accounting and Financial Disclosure
+10 Financial Statements and Supplementary Data
+11 Quantitative and Qualitative Disclosures about Market Risk
+12 Principal Accountant Fees and Services
+13 Certain Relationships and Related Transactions, and Director Independence
+14 Security Ownership of Certain Beneficial Owners and Management and Related Stockholder Matters
+15 Executive Compensation
+16 Item 10 “Directors, Executive Officers and Corporate Governance” requires information about the background and experience of the company’s directors and executive officers, the company’s code of ethics, and certain qualifications for directors and committees of the board of directors.
+17 Exhibits, Financial Statement Schedules
+
+
+
+
+Effective techniques for data extraction:
+Manual extraction: Start by manually reviewing the documents to understand their layout and where key information is typically found.
+Highlight and annotate: Use digital tools to highlight and annotate key figures and notes for easy reference.
+Excel and spreadsheet tools: For quantitative data, using Excel or similar spreadsheet tools can be effective. You can input key figures into a spreadsheet for analysis and comparison.
+Automated extraction tools: For more advanced users, tools such as Python (in particular, libraries such as Beautiful Soup or Pandas) can automate the extraction of data from these documents, especially if they are available in digital formats.
+
+
+Preparing and preprocessing data is crucial for the successful application of AI in finance. It ensures that the data fed into AI models is clean, consistent, and structured in a way that maximizes the model's ability to learn and make accurate predictions or provide valuable insights.
+This stage is not just about technical execution but also understanding the financial context and relevance of the data being processed.
+
+
+
+
+
+
+
+
+Preprocessing for AI models:
+
+Feature engineering: The process of using domain knowledge to create features that make machine learning algorithms work. In financial data, this might involve creating ratios or deriving financial health indicators from raw data.
+Data encoding and formatting: Many AI models require data in a specific format. This may involve encoding categorical data (like fiscal quarters) into numerical values or restructuring data sets for time-series analysis.
+Dealing with time-series data: Financial data often involves time-series analysis. Special care should be taken to handle trends and seasonality and potentially integrate lag features that capture past values.

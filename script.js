@@ -1,6 +1,6 @@
-const playground =document.getElementById('playground');
+// const playground =document.getElementById('playground');
 
-//const magicalorb = document.createElement('div');
+ //const magicalorb = document.createElement('div');
 //magicalorb.textContent ='orb';
 //playground.append(magicalorb);
 
